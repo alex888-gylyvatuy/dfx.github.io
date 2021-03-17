@@ -96,7 +96,7 @@ margin-top: 0px;
 font-size: 14px;
 }
 .digital_design img{
-	width:20%;
+	width:25%;
 	margin-left: 50px;
 	margin-bottom: 30px;
 }
@@ -131,7 +131,7 @@ font-size: 28px;
 font-size: 14px;
 }
 .brand_idenfity img{
-width:20%;
+width:25%;
 margin-left: 50px;	
 margin-bottom: 30px;
 }
@@ -167,7 +167,7 @@ font-size: 28px;
 font-size: 14px;
 }
 .commerce img{
-width:20%;
+width:25%;
 margin-left: 50px;	
 margin-bottom: 30px;
 }
@@ -188,7 +188,7 @@ display: none;
 	padding: 10px 25px;
 	font-size: 12px;
 }
-/*Баннеры*/
+/*Портфолио*/
 .best_works{
 	margin-top: 100px;
 }
@@ -202,10 +202,72 @@ font-size: 32px;
 	width: 150px;
 }
 .works_img_one, .works_img_two,.works_img_tree,.works_img_four{
-width:  150px;
+width:  225px;
+margin-left: 50px;
 }
 .works_img_five{
 width: 330px;
+}
+.works_img{
+	margin-left: 0px;
+	display: inline;
+}
+.works_img_one{
+	margin-top: 25px;
+}
+.works_img_five{
+	display: none;
+}
+.works_img_inner{
+	margin-top: 0px;
+}
+.you_btn_adaptive {
+	margin-left: 10px;
+	display: inline;
+	color: #FFF;
+	transition: all 0.5s;
+	position: relative;
+	text-decoration: none;
+	padding: 20px 50px;
+}
+.you_btn_adaptive::before {
+	display: inline;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #F4692E;
+	transition: all 0.3s;
+}
+/*Контакты*/
+.contact{
+	margin-top: 80px;
+}
+.contact_orange_line{
+	width: 150px;
+}
+.contact p{
+	font-size: 14px;
+}
+.contact h1{
+	font-size: 32px;
+}
+.contact_float3{
+	margin-left: 15px;
+	margin-top: 96px;
+	display: none;
+}
+.media_inner p{
+	font-size: 18px;
+	color: #494949;
+}
+.contact_float4{
+
+	margin-right: 20px;
+	margin-top: 20px;
 }
 }
   
