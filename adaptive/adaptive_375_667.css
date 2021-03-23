@@ -285,14 +285,17 @@ width: 330px;
  position: absolute;
  top: 10px;
  left: 0px;
- right: 185px;
+ right: 2px;
  bottom: 10px;
 }
 .text h2 {
  font-size: 14px;
 }
 .text p {
-top: 120px;
+top: 80px;
+}
+.best_works p{
+	font-size: 8px;
 }
 /*Контакты*/
 .contact{
@@ -312,14 +315,26 @@ top: 120px;
 	margin-top: 96px;
 	display: none;
 }
+.contact_float1{
+margin-left: 0;
+}
+.contact_float1 ul{
+padding-left: 0;
+}
+.contact_float2{
+margin-left: 0;
+}
 .media_inner p{
-	font-size: 18px;
+	font-size: 14px;
 	color: #494949;
 }
 .contact_float4{
 
 	margin-right: 20px;
 	margin-top: 20px;
+}
+.contact_answer ul{
+	padding-left: 0;
 }
 }
   
