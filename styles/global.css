@@ -6,6 +6,8 @@ body {
 	font-family: 'Helvetica Now Display';
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
 }
 header{
 	padding-top: 50px;

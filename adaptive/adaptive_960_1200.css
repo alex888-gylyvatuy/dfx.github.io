@@ -1,0 +1,21 @@
+@import "styles/about_us.css";
+@import "styles/global.css";
+@import "styles/navigation.css";
+@import "styles/offer.css";
+@import "styles/what_we_do.css";
+@import "styles/digital_design.css";
+@import "styles/you_wiil_got.css";
+@import "styles/brand_idenfity.css";
+@import "styles/commerce.css";
+@import "styles/our_team.css";
+@import "styles/best_works.css";
+@import "styles/contact.css";
+@import "styles/contact.css";
+@import "styles/button_top.css";
+@media screen and (max-width:1100px) {
+	.container{
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+}

@@ -12,9 +12,10 @@
 @import "styles/contact.css";
 @import "styles/contact.css";
 @import "styles/button_top.css";
-@media screen and (max-width:667px) {
+@media screen and (max-width:480px) {
 	.container{
-	max-width: 540px;
+	max-width: 400px;
+	min-width: 340px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -87,6 +88,10 @@ display: none;
 	font-size: 32px;
 }
 /*диджитал*/
+.digital_design{
+	width: 350px;
+	
+}
 .digital_design h2{
 font-size: 28px;
 margin-bottom: 0px;
@@ -119,7 +124,7 @@ display: none;
 }
 /*лого*/
 .brand_idenfity{
-	width: 520px;
+	width: 350px;
 	float: left;
 	margin: 0;
 	color:white;
@@ -154,7 +159,7 @@ display: none;
 }
 /*Баннеры*/
 .commerce{
-	width: 520px;
+	width: 350px;
 	position: top;
 	float: left;
 	margin: 0;
@@ -170,6 +175,11 @@ font-size: 14px;
 width:25%;
 margin-left: 50px;	
 margin-bottom: 30px;
+}
+.commerce ul{
+	list-style-type: none;
+	margin-left: -40px;
+	width: 300px;
 }
 .you_will_tree{
 height: 300px;
@@ -209,6 +219,7 @@ margin-left: 50px;
 width: 330px;
 }
 .works_img{
+	margin-top: 10px;
 	margin-left: 0px;
 	display: inline;
 }
@@ -222,7 +233,7 @@ width: 330px;
 	margin-top: 0px;
 }
 .you_btn_adaptive {
-	margin-left: 10px;
+	margin-left: 23px;
 	display: inline;
 	color: #FFF;
 	transition: all 0.5s;
@@ -241,6 +252,47 @@ width: 330px;
 	z-index: -1;
 	background-color: #F4692E;
 	transition: all 0.3s;
+}
+/*Новое портфолио*/
+.dws {
+ position: relative;
+ top: 100px;
+ left:45%;
+ width: 150px;
+}
+.dws_2 {
+ position: relative;
+ top: 100px;
+ left: 45%;
+ width: 150px;
+}.dws_3 {
+ position: relative;
+ top: 100px;
+ left: 45%;
+ width: 150px;
+}
+.dws_4, .dws_5,.dws_6 {
+	display: none;
+}
+.blocImg {
+ width: 150px;
+ height: 150px;
+ overflow: hidden;
+ background: #000;
+ cursor: pointer;
+}
+.blocText {
+ position: absolute;
+ top: 10px;
+ left: 0px;
+ right: 185px;
+ bottom: 10px;
+}
+.text h2 {
+ font-size: 14px;
+}
+.text p {
+top: 120px;
 }
 /*Контакты*/
 .contact{

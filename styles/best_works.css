@@ -93,3 +93,177 @@ width: 725px;
 	background-color: #F4692E;
 	transition: all 0.3s;
 }
+.dws {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.blocImg {
+ width: 300px;
+ height: 300px;
+ overflow: hidden;
+ background: #000;
+ cursor: pointer;
+}
+.blocImg img {
+ width: 100%;
+ transition: .5s;
+}
+.dws:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.blocText {
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ right: 30px;
+ bottom: 30px;
+}
+.text {
+ color: #fff;
+ text-transform: uppercase;
+ padding: 0 20px;
+ opacity: 0;
+ transition: .5s;
+}
+.text h2 {
+ font-size: 25px;
+}
+.text h2 span {
+ color: white;
+ padding-bottom: 3px;
+ border-bottom: 2px solid #F4692E;;
+}
+.text p {
+ position: absolute;
+ top: 180px;
+ width: 250px;
+ border-left: 4px solid #F4692E;
+ padding: 0 10px;
+}
+.dws:hover .text {
+ opacity: 1;
+}
+.blocText::before,
+.blocText::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ transition: .5s;
+}
+.blocText::before {
+ border-top: 1px solid #fff;
+ border-bottom: 1px solid #fff;
+ transform: scale(0,1);
+}
+.blocText::after {
+ border-left: 1px solid #fff;
+ border-right: 1px solid #fff;
+ transform: scale(1,0);
+}
+.dws:hover .blocText::before,
+.dws:hover .blocText::after{
+ transform: scale(1,1);
+}
+.dws_2 {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.dws_2:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.dws_2:hover .text {
+ opacity: 1;
+}
+.dws_2:hover .blocText::before,
+.dws_2:hover .blocText::after{
+ transform: scale(1,1);
+}
+.dws_3 {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.dws_3:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.dws_3:hover .text {
+ opacity: 1;
+}
+.dws_3:hover .blocText::before,
+.dws_3:hover .blocText::after{
+ transform: scale(1,1);
+}
+.works_img_down{
+	margin-top: 50px;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.dws_4 {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.dws_4:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.dws_4:hover .text {
+ opacity: 1;
+}
+.dws_4:hover .blocText::before,
+.dws_4:hover .blocText::after{
+ transform: scale(1,1);
+}
+.dws_5 {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.dws_5:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.dws_5:hover .text {
+ opacity: 1;
+}
+.dws_5:hover .blocText::before,
+.dws_5:hover .blocText::after{
+ transform: scale(1,1);
+}
+.dws_6 {
+ position: relative;
+ top: 200px;
+ left: 15%;
+ transform: translate(-50%, -50%);
+}
+.dws_6:hover .blocImg img {
+ transform: rotate(0deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.dws_6:hover .text {
+ opacity: 1;
+}
+.dws_6:hover .blocText::before,
+.dws_6:hover .blocText::after{
+ transform: scale(1,1);
+}
