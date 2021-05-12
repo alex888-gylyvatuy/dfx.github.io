@@ -1,6 +1,27 @@
+/*шрифт при выделении*/::selection {background: #FF8540;}
+::-moz-selection {background: #FF8540;}
+::-webkit-selection {background: #FF8540; color:#fff;}
+/*скроллбар*/::-webkit-scrollbar {
+    width: 10px; /* ширина нового скроллбара */
+}  
+::-webkit-scrollbar-track {
+    background: #0C0C0C; /* цвет фона у дорожки */
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset; /* тень у дорожки */
+}
+::-webkit-scrollbar-thumb {
+    background: #F15512; /* цвет фона у дорожки */
+    border-radius: 0px; /* скругление углов */
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b91414; /* ползунок меняет цвет при наведении */
+}                 
+ /*скроллбар-конец*/    
 *{
 	box-sizing: border-box;
 }
+
 body {
 	background-color:black;
 	font-family: 'Helvetica Now Display';
